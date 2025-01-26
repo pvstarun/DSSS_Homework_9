@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import torch
 from transformers import pipeline
 
-BOT_TOKEN = ""
+BOT_TOKEN = "7828989295:AAEK3h3Ff7tTWrMRCbMrFO0ad4a3vzV6b7I"
 
 pipe = pipeline("text-generation", model="TinyLlama/TinyLlama-1.1B-Chat-v1.0", torch_dtype=torch.bfloat16, device_map="auto")
 
